@@ -35,6 +35,10 @@
     margin-right: 2.2rem;
 }
 
+.introduction__text__links__media:hover {
+    color: rgb(128, 125, 125);
+}
+
 .introduction__text__links__arrow {
     width: 1.5rem;
     margin-left: 0.5rem;
