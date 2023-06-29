@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;700&display=swap');
+
+:root {
+    font-size: 62.5%; /* Para facilitar a acessibilidade, com isso iremos trabalhar com "rem" e não com "px". Divide o valor de px por 10 e dá o valor de rem.*/
+
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+    --preto-100: #464646;
+
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
