@@ -1,7 +1,7 @@
 .introduction {
     display: flex;
     align-items: center;
-    margin-top: 7rem;
+    margin: 7rem 15rem 0;
 }
 
 .introduction__text {

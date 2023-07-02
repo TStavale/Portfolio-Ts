@@ -6,6 +6,7 @@
     --cor-de-fundo: #F5F5F5;
     --cor-de-link: #000;
     --preto-100: #464646;
+    --azul-10: #EAF2FD;
 
 }
 
@@ -17,6 +18,15 @@ body {
     padding: 0;
     line-height: 1;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+} 
+
+/* .all {
+    margin: 2.5rem 15rem;
+} */
 
 ol, ul,li {
     list-style: none;

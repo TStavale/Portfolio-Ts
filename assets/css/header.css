@@ -1,11 +1,8 @@
 header {
     display: flex;
     justify-content: space-between;
+    margin: 2.5rem 15rem 0;
     
-}
-
-.all {
-    margin: 2.5rem 15rem;
 }
 
 .header__logo {
