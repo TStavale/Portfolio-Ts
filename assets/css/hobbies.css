@@ -12,7 +12,7 @@
 
 .hobbies__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .hobbies__container__item {
@@ -31,4 +31,10 @@
 
 .game {
     width: 3.5rem;
+}
+
+.hobbies__container__item__text {
+    color: var(--preto-100, #464646);
+    font-size: 1.6rem;
+    font-weight: 700;
 }
