@@ -1,0 +1,67 @@
+.skills {
+    margin: 3.5rem 15rem 8rem;
+}
+
+.skill__title {
+    color: var(--preto-100);
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+.skill__container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skill__container__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.skill__container__item__img--html {
+    width: 15rem;
+}
+
+.skill__container__item__img--html:hover {
+    width: 17rem;
+    transition: 0.6s ease-in-out;
+}
+
+.skill__container__item__img--css {
+    width: 19rem;
+}
+
+.skill__container__item__img--css:hover {
+    width: 21rem;
+    transition: 0.6s ease-in-out;
+}
+
+.skill__container__item__img--js {
+    width: 17rem;
+}
+
+.skill__container__item__img--js:hover {
+    width: 19rem;
+    transition: 0.6s ease-in-out;
+}
+
+.skill__container__item__img--react {
+    width: 19rem;
+}
+
+.skill__container__item__img--react:hover {
+    width: 21rem;
+    transition: 0.6s ease-in-out;
+}
+
+.skill__container__item__text {
+    color: var(--preto-100, #464646);
+    font-size: 1.9rem;
+    font-weight: 700;
+}
