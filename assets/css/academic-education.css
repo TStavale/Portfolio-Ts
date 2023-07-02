@@ -1,0 +1,50 @@
+.academic-education {
+    display: flex;
+    flex-direction: column;
+    background: var(--azul-10);
+    padding: 6.5rem;
+    align-items: center;
+}
+
+.academic-education__title {
+    color: var(--preto-100);
+    text-align: center;
+    font-size: 4.3rem;
+    font-weight: 700;
+}
+
+.academic-education__formation {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3.5rem;
+}
+
+.academic-education__formation__item__container {
+    background: var(--branco);
+    width: 38rem;
+    height: 30rem;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.academic-education__formation__item__container__img {
+    width: 30rem;  
+}
+
+.academic-education__formation__item__text {
+    margin-top: 1.5rem;
+}
+
+.academic-education__formation__text__title {
+    color: var(--preto-100);
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.academic-education__formation__text__description {
+    color: var(--preto-100);
+    font-size: 1.6rem;
+    font-weight: 500;
+}

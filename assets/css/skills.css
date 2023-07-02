@@ -5,7 +5,7 @@
 .skill__title {
     color: var(--preto-100);
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 4.3rem;
     font-weight: 700;
     margin-bottom: 4rem;
 }
@@ -25,38 +25,38 @@
 }
 
 .skill__container__item__img--html {
-    width: 13rem;
+    width: 11rem;
 }
 
 .skill__container__item__img--html:hover {
-    width: 15rem;
+    width: 13rem;
     transition: 0.6s ease-in-out;
 }
 
 .skill__container__item__img--css {
-    width: 17rem;
+    width: 15rem;
 }
 
 .skill__container__item__img--css:hover {
-    width: 19rem;
+    width: 17rem;
     transition: 0.6s ease-in-out;
 }
 
 .skill__container__item__img--js {
-    width: 15rem;
+    width: 13rem;
 }
 
 .skill__container__item__img--js:hover {
-    width: 17rem;
+    width: 15rem;
     transition: 0.6s ease-in-out;
 }
 
 .skill__container__item__img--react {
-    width: 17rem;
+    width: 15rem;
 }
 
 .skill__container__item__img--react:hover {
-    width: 19rem;
+    width: 17rem;
     transition: 0.6s ease-in-out;
 }
 
