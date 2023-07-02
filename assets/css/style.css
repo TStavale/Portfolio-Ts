@@ -3,10 +3,11 @@
 :root {
     font-size: 62.5%; /* Para facilitar a acessibilidade, com isso iremos trabalhar com "rem" e não com "px". Divide o valor de px por 10 e dá o valor de rem.*/
 
-    --cor-de-fundo: #F5F5F5;
+    --cor-de-fundo: #eeeeee;
     --cor-de-link: #000;
     --preto-100: #464646;
-    --azul-10: #EAF2FD;
+    --azul-10: #dbe3ee;
+    --branco: #FFF;
 
 }
 
