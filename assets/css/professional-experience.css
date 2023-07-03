@@ -1,0 +1,105 @@
+.professional-experience {
+    margin: 3.5rem 15rem;
+}
+
+.professional-experience__title {
+    color: var(--preto-100);
+    margin: 5.5rem 0;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.professional-experience__projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.professional-experience__projects__project {
+    display: flex;
+    margin-bottom: 6.5rem;
+}
+
+.professional-experience__projects__img {
+    width: 65rem;
+    height: 40rem;
+    padding: 1rem;
+}
+
+.professional-experience__projects__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4.6rem;
+}
+
+.professional-experience__projects__text__title {
+    color: var(--preto-100);
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.professional-experience__projects__text__description {
+    width: 33rem;
+    color: var(--preto-100);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.professional-experience__projects__links {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.professional-experience__projects__links__repository {
+    width: 10rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+    gap: 10px;
+    margin-right: 1.6rem;
+
+    border: 1px solid var(--azul-100);
+    color: var(--azul-100);
+    font-size: 1.6rem;
+    font-weight: 400;
+
+}
+
+.professional-experience__projects__links__repository:active {
+    background: #dad6d6;
+}
+
+.professional-experience__projects__links__demonstration {
+    width: 10rem;
+    height: 3.5rem;
+    background: var(--azul-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+    gap: 10px;
+
+    border: 1px solid var(--azul-100);
+    color: var(--branco);
+    font-size: 1.6rem;
+    font-weight: 400;
+
+}
+
+.professional-experience__projects__links__demonstration:active {
+    background: #1b62be;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.question-mark__img {
+    width: 65rem;
+    height: 40rem;
+    
+}

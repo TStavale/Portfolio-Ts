@@ -1,11 +1,13 @@
 .introduction {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin: 7rem 15rem 0;
 }
 
 .introduction__text {
-    margin-right: 1.9rem;
+    width: 65%;
+    margin-right: 3rem;
     padding: 2.5rem 0;
 }
 
