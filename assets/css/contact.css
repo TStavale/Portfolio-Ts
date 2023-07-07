@@ -1,0 +1,87 @@
+.formcontact {
+    display: flex;
+    justify-content: center;
+    background: var(--azul-10);
+    padding: 6.5rem;
+}
+
+.formcontact__container {
+    margin-left: 1.8rem;
+}
+
+.formcontact__container__text__title {
+    color: var(--preto-100);
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.formcontact__container__text__subtitle {
+    color: var(--preto-100);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.fromcontact__container__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.2rem;
+}
+
+.fromcontact__container__form__input {
+    margin-bottom: 3.2rem;
+    border: none;
+    height: 4.5rem;
+    border-radius: 4px;
+}
+
+.fromcontact__container__form__input:focus {
+    border-bottom: 3px solid var(--azul-100);
+    outline: 0;
+}
+
+.fromcontact__container__form__input::placeholder {
+    color: var(--cinza);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 1.6rem 1.2rem;
+}
+
+.fromcontact__container__form__textarea {
+    border: none;
+    border-radius: 4px;
+}
+
+.fromcontact__container__form__textarea:focus {
+    outline: 3px solid var(--azul-100);
+}
+
+.fromcontact__container__form__textarea::placeholder {
+    color: var(--cinza);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 1.6rem 1.2rem;
+}
+
+.fromcontact__container__form__button {
+    width: 17rem;
+    height: 5rem;
+    margin-top: 3.2rem;
+    background: var(--azul-100);
+    display: flex;
+    padding: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.fromcontact__container__form__button:active {
+    background: #2469c4;
+}
