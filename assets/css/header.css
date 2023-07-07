@@ -56,3 +56,28 @@ header {
     font-weight: bold;
 }
 
+
+@media screen and (max-width: 768px) {
+    header {
+        margin: 0;
+        padding: 1.6rem 3.2rem;
+    }
+
+    .header__logo--text {
+        font-size: 1.6rem;
+    }
+    
+    .header__menu__link {
+        display: none;
+    }
+
+    .header__menu__list {
+        width: 50rem;
+    
+    }
+
+    .contato--link {
+        display: block;
+        font-size: 1.6rem;
+    }
+}

@@ -85,3 +85,32 @@
 .fromcontact__container__form__button:active {
     background: #2469c4;
 }
+
+@media screen and (max-width: 768px) {
+    .formcontact {
+        padding: 3.2rem;
+    }
+
+    .contact__img {
+        display: none;
+    }
+    
+    .formcontact__container {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .formcontact__container__text__title {
+        font-size: 2.2rem;
+    }
+    
+    .formcontact__container__text__subtitle {
+        font-size: 1.4rem;
+    }
+    
+    .fromcontact__container__form__button {
+        padding: 1.2rem 1.6rem;
+    
+        font-size: 14px;
+    }
+}

@@ -103,3 +103,57 @@
     height: 40rem;
     
 }
+
+@media screen and (max-width: 768px) {
+    .professional-experience {
+        margin: 0;
+        padding: 3.2rem;
+    }
+    
+    .professional-experience__title {
+        margin: 0 0 1.6rem;
+        font-size: 2.2rem;
+    }
+    
+    .professional-experience__projects__project {
+        flex-direction: column;
+        margin-bottom: 6.4rem;
+    }
+    
+    .professional-experience__projects__text {
+        margin: 1.6rem 0 0;
+    }
+    
+    .professional-experience__projects__text__title {
+        font-size: 1.6rem;
+    }
+    
+    .professional-experience__projects__text__description {
+        width: 100%;
+        font-size: 1.4rem;
+        line-height: 20px;
+    }
+    
+    .professional-experience__projects__links {
+        margin: 0;
+    }
+    
+    .professional-experience__projects__links__repository {
+        width: 12rem;
+        height: 3rem;
+        padding: 1.2rem 1.6rem;
+        gap: 10px;
+        margin-right: 1.6rem;
+    
+        font-size: 1.4rem;   
+    }
+
+    .professional-experience__projects__links__demonstration {
+        width: 12rem;
+        height: 3rem;
+        padding: 1.2rem 1.6rem;
+        gap: 10px;
+    
+        font-size: 1.4rem;
+    }
+}

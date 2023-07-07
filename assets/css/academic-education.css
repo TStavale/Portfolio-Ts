@@ -49,3 +49,38 @@
     font-size: 1.6rem;
     font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+    .academic-education {
+        padding: 3.2rem;
+    }
+
+    .academic-education__title {
+        font-size: 2.2rem;
+        margin: 0 0 3.2rem;
+    }
+
+    .academic-education__formation {
+        margin-top: 0;
+        width: 70rem;
+    }
+
+    .academic-education__formation__item__container {
+        width: 28rem;
+        height: 20rem;
+        
+    }
+
+    .academic-education__formation__item__container__img {
+        width: 20rem;  
+    }
+    
+    .academic-education__formation__text__title {
+        font-size: 1.6rem;
+        width: 28rem;
+    }
+
+    .academic-education__formation__text__description {
+        font-size: 1.4rem;
+    }
+}
