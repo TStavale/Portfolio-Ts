@@ -21,3 +21,14 @@
     font-size: 1.6rem;
     font-weight: 500;
 }
+
+@media screen and (max-width: 425px) {
+    .footer {
+        padding: 1.6rem;
+        gap: 0px;
+    }
+
+    .footer__title .footer__text {
+        font-size: 1.4rem;
+    }
+}

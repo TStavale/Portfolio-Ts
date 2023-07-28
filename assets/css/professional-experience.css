@@ -157,3 +157,44 @@
         font-size: 1.4rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .professional-experience {
+        padding: 1.6rem;
+    }
+    
+    .professional-experience__title {
+        font-size: 2rem;
+    }
+
+    .professional-experience__projects__img {
+        width: 38rem;
+        height: 18rem;
+    }
+    
+    .professional-experience__projects__text {
+        margin-left: 0rem;
+    }
+    
+    .professional-experience__projects__text__title {
+        font-size: 1.8rem;
+    }
+    
+    .professional-experience__projects__text__description {
+        font-size: 1.4rem;
+    }
+
+    .professional-experience__projects__links__repository {
+        width: 8rem;
+        height: 2.5rem;
+    
+        font-size: 1.2rem;   
+    }
+
+    .professional-experience__projects__links__demonstration {
+        width: 8rem;
+        height: 2.5rem;
+    
+        font-size: 1.2rem;
+    }
+}

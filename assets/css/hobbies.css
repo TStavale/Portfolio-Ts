@@ -55,3 +55,22 @@
         height: 12rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .hobbies {
+        padding: 1.6rem;
+    }
+
+    .hobbies__title {
+        font-size: 2rem;
+        margin-bottom: 3.2rem;
+    }
+
+    .hobbies__container {
+        flex-wrap: wrap;
+    }
+
+    .hobbies__container__item {
+        margin-bottom: 2rem;
+    }
+}

@@ -81,3 +81,27 @@ header {
         font-size: 1.6rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    header {
+        margin: 0;
+        padding: 1.6rem;
+    }
+
+    .header__logo--text {
+        font-size: 1.5rem;
+    }
+
+    .header__menu__list {
+        width: 15rem;
+    }
+    
+    .header__menu__link {
+        display: none;
+    }
+
+    .contato--link {
+        display: block;
+        font-size: 1.2rem;
+    }
+}

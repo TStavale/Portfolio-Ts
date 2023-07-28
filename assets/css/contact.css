@@ -77,7 +77,7 @@
     border: none;
 
     color: var(--branco);
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     cursor: pointer;
 }
@@ -111,6 +111,29 @@
     .fromcontact__container__form__button {
         padding: 1.2rem 1.6rem;
     
-        font-size: 14px;
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .formcontact {
+        padding: 1.6rem;
+    }
+
+    .formcontact__container__text__title {
+        font-size: 2rem;
+    }
+    
+    .formcontact__container__text__subtitle {
+        font-size: 1.2rem;
+        line-height: 15px;
+    }
+
+    .fromcontact__container__form__button {
+        width: 14rem;
+        height: 4rem;
+        padding: 1rem;
+    
+        font-size: 1.2rem;
     }
 }

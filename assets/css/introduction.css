@@ -84,7 +84,7 @@
     }
 
     .introduction__text__links__arrow {
-        width: 1.rem;
+        width: 1rem;
         margin-left: 0.5rem;
     }
 
@@ -94,4 +94,41 @@
     }
     
 
+}
+
+@media screen and (max-width: 425px) {
+    .introduction {
+        flex-direction: column-reverse;
+        align-items:flex-start;
+        margin: 0;
+        padding: 1.6rem;
+    }
+
+    .introduction__text {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .introduction__text__title {
+        font-size: 2.1rem;
+    }
+
+    .introduction__text__subtitle {
+        font-size: 1.4rem;
+        margin: 1.5rem 0;
+    }
+
+    .introduction__text__links__media {
+        font-size: 1.4rem;
+    }
+
+    .introduction__text__links__arrow {
+        width: 1rem;
+    }
+
+    .introduction__img {
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 1.5rem;
+    }
 }

@@ -113,3 +113,67 @@
         font-size: 1.6rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .skills {
+        padding: 1.6rem;
+    }
+    
+    .skill__title {
+        font-size: 2rem;
+    }
+
+    .skill__container {
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+
+    .skill__container__item {
+        background: var(--branco);
+        width: 15rem;
+        height: 12rem;
+        justify-content: end;
+        text-align: start;
+        align-items: start;
+        padding: 1.6rem;
+        margin-bottom: 2rem;
+    }
+
+    .skill__container__item__img--html {
+        width: 3rem;
+    }
+
+    .skill__container__item__img--html:hover {
+        width: 3rem;
+    }
+    
+    .skill__container__item__img--css {
+        width: 4rem;
+    }
+
+    .skill__container__item__img--css:hover {
+        width: 4rem;
+    }
+    
+    .skill__container__item__img--js {
+        width: 3rem;
+    }
+
+    .skill__container__item__img--js:hover {
+        width: 3rem;
+    }
+    
+    .skill__container__item__img--react {
+        width: 4rem;
+    }
+
+    .skill__container__item__img--react:hover {
+        width: 4rem;
+    }
+
+    .skill__container__item__text {
+        font-size: 1.4rem;
+        width: 100%;
+        margin-bottom: 0;
+    }
+}

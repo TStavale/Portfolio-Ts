@@ -84,3 +84,41 @@
         font-size: 1.4rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .academic-education {
+        padding: 1.6rem;
+    }
+
+    .academic-education__title {
+        font-size: 2rem;
+    }
+
+    .academic-education__formation {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .academic-education__formation__item__container {
+        width: 36rem;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .academic-education__formation__item__container__img {
+        width: 20rem; 
+    }
+
+    .academic-education__formation__text__title {
+        font-size: 1.4rem;
+        width: 28rem;
+    }
+
+    .academic-education__formation__text__description {
+        font-size: 1.2rem;
+    }
+}

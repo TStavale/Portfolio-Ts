@@ -50,3 +50,18 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .about-me {
+        padding: 1.6rem;
+        margin: 0;
+    }
+
+    .about-me__text__title {
+        font-size: 2rem;
+    }
+    
+    .about-me__text__description {
+        font-size: 1.4rem;
+    }
+}
