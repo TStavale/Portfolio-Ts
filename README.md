@@ -14,7 +14,7 @@ O objetivo foi criar um portfólio responsivo no qual possa demonstrar meus proj
 
 <h2>ACESSE</h2>
 
-https://tstavale.github.io/Portfolio-Ts/
+https://tassiostavalemyportfolio.netlify.app/
 
 <h2>FERRAMENTAS</h2>
 
